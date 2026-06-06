@@ -19,7 +19,7 @@ public class AgePredictor {
         System.out.println("Age after 25 years: " + ageAfter25);
         System.out.println("Age after 50 years: " + ageAfter50);
 
-        System.out.println("You will turn 100 in the year: " + yearsTo100);
+        System.out.println("You will turn 100 after " + yearsTo100+"years.");
 
         sc.close();
     }
