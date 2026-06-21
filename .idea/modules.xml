@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/2ndSemOOP.iml" filepath="$PROJECT_DIR$/.idea/2ndSemOOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tutorial-1/HelloWorldProgram/HelloWorldProgram.iml" filepath="$PROJECT_DIR$/Tutorial-1/HelloWorldProgram/HelloWorldProgram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tutorial-1/Input/Input.iml" filepath="$PROJECT_DIR$/Tutorial-1/Input/Input.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tutorial-1/Operators/Operators.iml" filepath="$PROJECT_DIR$/Tutorial-1/Operators/Operators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tutorial-2/Tutorial-2.iml" filepath="$PROJECT_DIR$/Tutorial-2/Tutorial-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tutorial-3/Tutorial-3.iml" filepath="$PROJECT_DIR$/Tutorial-3/Tutorial-3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tutorial-1/VariablesAndDataTypes/VariablesAndDataTypes.iml" filepath="$PROJECT_DIR$/Tutorial-1/VariablesAndDataTypes/VariablesAndDataTypes.iml" />
+    </modules>
+  </component>
+</project>
