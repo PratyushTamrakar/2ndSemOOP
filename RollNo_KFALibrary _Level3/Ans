@@ -1,0 +1,26 @@
+A2
+
+1. Why do kiosk threads finish unpredictably?
+-> Even though the kiosk threads are started in a fixed sequence, the thread scheduler decides when each thread gets CPU
+    time. Since each thread also sleeps for a random amount of time, they can wake up and finish in different orders each
+    time.
+
+2. What are the six Java thread states?
+-> The six states are NEW, RUNNABLE, BLOCKED, WAITING, TIMED_WAITING, and TERMINATED. A thread moves from RUNNABLE to
+    TIMED_WAITING when it performs a timed operation such as Thread.sleep(1000), causing it to pause for a specified amount
+    of time.
+
+3. Why doesn't calling run() create concurrency?
+-> Calling run() directly simply executes the method on the current thread, just like a normal method call. start() is
+    what creates a new thread and then causes that new thread to execute run(), allowing concurrent execution.
+
+C3
+1) Explain the difference between wait()/notify() (used with synchronized blocks) and sleep() — specifically, what happens
+    to the lock in each case.
+->  wait() releases the object's intrinsic lock and puts the thread into a waiting state until it is notified,
+    while sleep() pauses the thread for a period of time without releasing any lock it currently holds.
+
+2)  Why is notifyAll() generally safer than notify() when more than one type of thread might be waiting on the same object?
+->  notifyAll() is generally safer than notify() when different types of threads may be waiting because it wakes all waiting
+    threads, allowing each to re-check its condition; notify() might wake a thread whose condition is still false, leaving
+    the correct waiting thread blocked.
